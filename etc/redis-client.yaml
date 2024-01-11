@@ -1,0 +1,8 @@
+name: redis-redis
+redis_config:
+  network: tcp
+  addr: localhost:6379
+  timeout: 3000
+  max_idle: 20
+#  millisecond
+  idle_timeout: 3000
